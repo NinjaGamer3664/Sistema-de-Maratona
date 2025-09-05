@@ -17,7 +17,7 @@ print(f"{100*'-'}\n")
 
 #Verifica e garante que as pontuações seguem um peso justo
 if not valor1 < valor2 < valor3:
-   print('\033[38;5;130m' + 'As difíceis devem ser maiores que as médias, que devem ser msiores que as fáceis!')
+   print('\033[38;5;130m' + 'As difíceis devem ser maiores que as médias, que devem ser maiores que as fáceis!')
 elif valor1 < valor2 < valor3:
     equipe1 = input('\033[38;5;33m' + 'Defina o nome da primeira equipe:\n' + '\033[0m')
     equipe2 = input('\033[38;5;33m' + 'Defina o nome da segunda equipe:\n' + '\033[0m')
